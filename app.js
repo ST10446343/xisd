@@ -10,13 +10,13 @@ function navigateTo(screenId) {
   }
 
   // Toggle bottom navigation visibility
-  const bottomNav = document.getElementById('bottom-nav');
+  const topNav = document.getElementById('top-nav');
   const authScreens = ['screen-login', 'screen-register'];
   
   if (authScreens.includes(screenId)) {
-    bottomNav.classList.add('hidden');
+    topNav.classList.add('hidden');
   } else {
-    bottomNav.classList.remove('hidden');
+    topNav.classList.remove('hidden');
   }
 }
 
