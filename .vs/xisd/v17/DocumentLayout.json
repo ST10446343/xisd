@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -45,7 +49,7 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\Student\\source\\repos\\xisd\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAJIAAACAkZmZmRkmwJwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAQBAACA9f////8QwAgBAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-09-04T04:27:30.62Z",
               "EditorCaption": ""
@@ -58,7 +62,7 @@
               "RelativeDocumentMoniker": "app.js",
               "ToolTip": "C:\\Users\\Student\\source\\repos\\xisd\\app.js",
               "RelativeToolTip": "app.js",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAABQzczMzMwWwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-09-04T04:26:30.489Z",
               "EditorCaption": ""

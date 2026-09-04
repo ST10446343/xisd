@@ -22,16 +22,16 @@
 </head>
 <body class="bg-gray-50 min-h-screen flex flex-col font-sans">
 
-    <header id="top-nav" class="hidden bg-white border- b border-gray-200 sticky top-0 z-50">
+    <header id="top-nav" class="bg-white border- b border-gray-200 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-3 cursor-pointer" onclick="navigateTo('screen-dashboard')">
                 <h1 class="text-xl font-extrabold text-black tracking-tight">GOLD <span class="text-base font-bold text-brandGold">Driving School</span></h1>
             </div>
         <nav class="flex space-x-8 text-sm font-semibold text-gray-600">
-            <button onclick="navigateTo"('screen-dashboard') class=" hover:text-brandGold transition">Home</button>
-            <button onclick="navigateTo"('screen-bookings') class=" hover:text-brandGold transition">Bookings</button>
-            <button onclick="navigateTo"('screen-progress') class=" hover:text-brandGold transition">Progress</button>
-            <button onclick="navigateTo"('screen-profile') class=" hover:text-brandGold transition">Profile</button>
+            <button onclick="navigateTo('screen-dashboard')" class=" hover:text-brandGold transition">Home</button>
+            <button onclick="navigateTo('screen-bookings')" class=" hover:text-brandGold transition">Bookings</button>
+            <button onclick="navigateTo('screen-progress')" class=" hover:text-brandGold transition">Progress</button>
+            <button onclick="navigateTo('screen-profile')" class=" hover:text-brandGold transition">Profile</button>
         </nav>
             </div>
 
@@ -85,7 +85,7 @@
         </section>
 
         <!-- SCREEN 3: HOME DASHBOARD -->
-        <section id="screen-dashboard" class="screen  space-y-6">
+        <section id="screen-dashboard" class="screen hidden space-y-6">
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center bg-white p-6 rounded-2xl border border-gray-200 shadow-sm gap-4">
                 <div>
                     <p class="text-base font-bold text-black">Gold Driving School</p>
